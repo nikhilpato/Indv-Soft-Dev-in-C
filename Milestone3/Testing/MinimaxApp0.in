@@ -1,0 +1,52 @@
+Othello 5 human1 ai
+printHelp
+showMoves
+switchSides
+doMove [2,2]
+newGame Othello 5 ai human2
+p
+switchSides
+setOptions
+y
+6
+n
+writeGame test1.oth
+autoPlay 2
+readGame test1.oth
+s
+test2.oth
+setOptions
+y
+4
+n
+autoPlay 40
+undoMove 
+undoMove 
+autoPlay 2
+undoMove
+doMove whatever
+doMove Pass
+newGame Checkers 8 ai human2
+s
+test2.oth
+doMove F4->E3
+doMove g3 -> f5
+doMove e5->d4
+autoPlay 4
+readGame test2.oth
+s
+test1.chk
+undoMove
+doMove F4->e3
+quit
+c
+readGame test1.oth
+p
+setOptions
+y
+5
+n
+autoPlay 2
+quit
+p
+

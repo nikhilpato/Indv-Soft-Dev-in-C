@@ -1,0 +1,4557 @@
+Enter game, level, player1, player2: 
+------
+Move  N/A  N/A
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+
+------
+Move  human1     N/A
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+
+------
+Move  human1    AI 1
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+
+Enter command (for human1): Commands are: 
+doMove move
+readGame filename
+writeGame filename
+undoMove
+newGame [Checkers|Othello|Pylos] level players
+printHelp
+autoPlay numFullMoves
+setOptions
+switchSides
+showMoves
+quit
+
+Enter command (for human1): 
+[2, 3] [3, 2] [4, 5] [5, 4]
+
+Enter command (for human1): AI 1: I think that's a good deal.
+
+------
+Move    AI 1  human1
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+Sides swapped.
+AI 1: I'm making move [2, 3] after checking 409 boards,
+ and I think the resultant game value will be 3
+
+------
+Move    AI 1  human1
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+Enter command (for human1): 
+------
+Move    AI 1  human1
+   0  [2, 3]  [2, 2]
+
+Current Board:
+........
+........
+..WB....
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 1: Yeah, that's what I'd have done.
+AI 1: I'm making move [2, 1] after checking 704 boards,
+ and I think the resultant game value will be 4
+
+------
+Move    AI 1  human1
+   0  [2, 3]  [2, 2]
+   1  [2, 1]
+
+Current Board:
+........
+........
+.BBB....
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 2
+
+------
+
+Enter command (for human1): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? 
+------
+Move     N/A  human1
+   0  [2, 3]  [2, 2]
+   1  [2, 1]
+
+Current Board:
+........
+........
+.BBB....
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 2
+
+------
+
+------
+Move     N/A     N/A
+   0  [2, 3]  [2, 2]
+   1  [2, 1]
+
+Current Board:
+........
+........
+.BBB....
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 2
+
+------
+
+------
+Move  N/A  N/A
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+
+------
+Move  AI 0   N/A
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+
+------
+Move    AI 0  human2
+
+Current Board:
+........
+........
+........
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 0: I'm making move [2, 3] after checking 409 boards,
+ and I think the resultant game value will be 3
+
+------
+Move    AI 0  human2
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+Enter command (for human2): AI 0: No thanks, I'm winning.
+Opposing player(s) disagree; no swap.
+
+Enter command (for human2): Modify current play level of 5 [y/n]? Enter new level [1, 15]: 
+Side weight: 8
+Near side weight: 0
+Corner weight: 16
+Inner weight: 1
+
+Modify? [y/n] 
+Enter command (for human2): Game saved in test1.oth
+
+Enter command (for human2): 
+------
+Move    AI 0     N/A
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+human2 (by AI): I'm making move [2, 2] after checking 1048 boards,
+ and I think the resultant game value will be 4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+
+Current Board:
+........
+........
+..WB....
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [2, 1] after checking 1508 boards,
+ and I think the resultant game value will be -4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [2, 1]
+
+Current Board:
+........
+........
+.BBB....
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 2
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [2, 4] after checking 1847 boards,
+ and I think the resultant game value will be 3
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [2, 1]          [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+AI 0: Yeah, that's what I'd have done.
+
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+AI 0: I'm making move [2, 5] after checking 2844 boards,
+ and I think the resultant game value will be -2
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+   2  [2, 5]
+
+Current Board:
+........
+........
+.BBBBB..
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 4
+
+------
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? Enter filename: Game saved in test2.oth
+Restoring game test1.oth
+
+
+------
+Move    AI 0  human2
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+Enter command (for human2): Modify current play level of 6 [y/n]? Enter new level [1, 15]: 
+Side weight: 8
+Near side weight: 0
+Corner weight: 16
+Inner weight: 1
+
+Modify? [y/n] 
+Enter command (for human2): 
+------
+Move    AI 0     N/A
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+human2 (by AI): I'm making move [2, 2] after checking 129 boards,
+ and I think the resultant game value will be 3
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+
+Current Board:
+........
+........
+..WB....
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 0: I'm making move [4, 5] after checking 229 boards,
+ and I think the resultant game value will be -2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]
+
+Current Board:
+........
+........
+..WB....
+...WB...
+...BBB..
+........
+........
+........
+W
+
+Value: 3
+
+------
+human2 (by AI): Hmm.  I'd have done [2, 1].
+human2 (by AI): I'm making move [2, 4] after checking 189 boards,
+ and I think the resultant game value will be 4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+
+Current Board:
+........
+........
+..WWW...
+...WB...
+...BBB..
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 0: Hmm.  I'd have done [5, 5].
+AI 0: I'm making move [3, 2] after checking 421 boards,
+ and I think the resultant game value will be -5
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]
+
+Current Board:
+........
+........
+..WWW...
+..BBB...
+...BBB..
+........
+........
+........
+W
+
+Value: 3
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 1].
+human2 (by AI): I'm making move [4, 2] after checking 453 boards,
+ and I think the resultant game value will be 1
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+
+Current Board:
+........
+........
+..WWW...
+..WWB...
+..WBBB..
+........
+........
+........
+B
+
+Value: -2
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [1, 3] after checking 659 boards,
+ and I think the resultant game value will be -9
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]
+
+Current Board:
+........
+...B....
+..WBW...
+..WBB...
+..WBBB..
+........
+........
+........
+W
+
+Value: 2
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 1].
+human2 (by AI): I'm making move [0, 2] after checking 771 boards,
+ and I think the resultant game value will be -3
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+
+Current Board:
+..W.....
+...W....
+..WBW...
+..WBB...
+..WBBB..
+........
+........
+........
+B
+
+Value: -6
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [5, 1] after checking 1300 boards,
+ and I think the resultant game value will be -13
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]
+
+Current Board:
+..W.....
+...W....
+..WBW...
+..WBB...
+..BBBB..
+.B......
+........
+........
+W
+
+Value: -4
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 1].
+human2 (by AI): I'm making move [5, 3] after checking 1148 boards,
+ and I think the resultant game value will be -4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+
+Current Board:
+..W.....
+...W....
+..WWW...
+..WWB...
+..BWBB..
+.B.W....
+........
+........
+B
+
+Value: -11
+
+------
+AI 0: Hmm.  I'd have done [5, 4].
+AI 0: I'm making move [1, 2] after checking 1206 boards,
+ and I think the resultant game value will be -14
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]
+
+Current Board:
+..W.....
+..BW....
+..BBW...
+..BWB...
+..BWBB..
+.B.W....
+........
+........
+W
+
+Value: -5
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [5, 2] after checking 1546 boards,
+ and I think the resultant game value will be -6
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+
+Current Board:
+..W.....
+..WW....
+..WBW...
+..WWB...
+..WWBB..
+.BWW....
+........
+........
+B
+
+Value: -12
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [5, 4] after checking 2713 boards,
+ and I think the resultant game value will be -14
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]
+
+Current Board:
+..W.....
+..WW....
+..WBW...
+..WWB...
+..WWBB..
+.BBBB...
+........
+........
+W
+
+Value: -7
+
+------
+human2 (by AI): Hmm.  I'd have done [4, 1].
+human2 (by AI): I'm making move [6, 4] after checking 2336 boards,
+ and I think the resultant game value will be -5
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+
+Current Board:
+..W.....
+..WW....
+..WBW...
+..WWW...
+..WWWB..
+.BBWW...
+....W...
+........
+B
+
+Value: -15
+
+------
+AI 0: Hmm.  I'd have done [5, 5].
+AI 0: I'm making move [1, 5] after checking 2006 boards,
+ and I think the resultant game value will be -15
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]
+
+Current Board:
+..W.....
+..WW.B..
+..WBB...
+..WBW...
+..BWWB..
+.BBWW...
+....W...
+........
+W
+
+Value: -9
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [5, 0] after checking 2151 boards,
+ and I think the resultant game value will be -6
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+
+Current Board:
+..W.....
+..WW.B..
+..WBB...
+..WBW...
+..BWWB..
+WWWWW...
+....W...
+........
+B
+
+Value: -19
+
+------
+AI 0: Hmm.  I'd have done [2, 5].
+AI 0: I'm making move [7, 5] after checking 2798 boards,
+ and I think the resultant game value will be -15
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]
+
+Current Board:
+..W.....
+..WW.B..
+..WBB...
+..WBW...
+..BWWB..
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -9
+
+------
+human2 (by AI): Hmm.  I'd have done [7, 4].
+human2 (by AI): I'm making move [0, 6] after checking 2816 boards,
+ and I think the resultant game value will be -6
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW...
+..WWW...
+..WWWB..
+WWWBW...
+....B...
+.....B..
+B
+
+Value: -15
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [4, 1] after checking 1663 boards,
+ and I think the resultant game value will be -15
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW...
+..BWW...
+.BBBBB..
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -7
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 4].
+human2 (by AI): I'm making move [3, 6] after checking 3480 boards,
+ and I think the resultant game value will be -5
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW...
+..BWW.W.
+.BBBBW..
+WWWBW...
+....B...
+.....B..
+B
+
+Value: -9
+
+------
+AI 0: Hmm.  I'd have done [3, 0].
+AI 0: I'm making move [4, 6] after checking 2808 boards,
+ and I think the resultant game value will be -17
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW...
+..BWW.W.
+.BBBBBB.
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -7
+
+------
+human2 (by AI): Hmm.  I'd have done [5, 6].
+human2 (by AI): I'm making move [3, 1] after checking 1969 boards,
+ and I think the resultant game value will be -7
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW...
+.WWWW.W.
+.WBBBBB.
+WWWBW...
+....B...
+.....B..
+B
+
+Value: -9
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [2, 7] after checking 2475 boards,
+ and I think the resultant game value will be -15
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW..B
+.WWWW.B.
+.WBBBBB.
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -1
+
+------
+human2 (by AI): Hmm.  I'd have done [2, 0].
+human2 (by AI): I'm making move [4, 7] after checking 917 boards,
+ and I think the resultant game value will be -3
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW..B
+.WWWW.B.
+.WWWWWWW
+WWWBW...
+....B...
+.....B..
+B
+
+Value: -17
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [3, 5] after checking 1398 boards,
+ and I think the resultant game value will be -15
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBW..B
+.WWWWBB.
+.WWWBWWW
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -14
+
+------
+human2 (by AI): Hmm.  I'd have done [5, 6].
+human2 (by AI): I'm making move [2, 5] after checking 2809 boards,
+ and I think the resultant game value will be -3
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBWW.B
+.WWWWWW.
+.WWWBWWW
+WWWBW...
+....B...
+.....B..
+B
+
+Value: -17
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [2, 6] after checking 1142 boards,
+ and I think the resultant game value will be -11
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBBBBB
+.WWWWBW.
+.WWWBWWW
+WWWBW...
+....B...
+.....B..
+W
+
+Value: -11
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [5, 5] after checking 3388 boards,
+ and I think the resultant game value will be 4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBBBBB
+.WWWWBW.
+.WWWWWWW
+WWWBWW..
+....B...
+.....B..
+B
+
+Value: -14
+
+------
+AI 0: Hmm.  I'd have done [1, 4].
+AI 0: I'm making move [3, 0] after checking 1781 boards,
+ and I think the resultant game value will be -10
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBBBBB
+BBBBBBW.
+.WWWWWWW
+WWWBWW..
+....B...
+.....B..
+W
+
+Value: 0
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [7, 3] after checking 3335 boards,
+ and I think the resultant game value will be 8
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBBBBB
+BBBBBBW.
+.WWWWWWW
+WWWBWW..
+....W...
+...W.B..
+B
+
+Value: -8
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [6, 3] after checking 2788 boards,
+ and I think the resultant game value will be -10
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]
+
+Current Board:
+..W...W.
+..WW.W..
+..WBBBBB
+BBBBBBB.
+.BWWWBWW
+WWBBBW..
+...BW...
+...W.B..
+W
+
+Value: -2
+
+------
+human2 (by AI): Hmm.  I'd have done [0, 4].
+human2 (by AI): I'm making move [1, 4] after checking 2332 boards,
+ and I think the resultant game value will be 4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+
+Current Board:
+..W...W.
+..WWWW..
+..WWWWBB
+BBWBWBW.
+.WWWWBWW
+WWBBBW..
+...BW...
+...W.B..
+B
+
+Value: -12
+
+------
+AI 0: Hmm.  I'd have done [2, 0].
+AI 0: I'm making move [0, 4] after checking 2616 boards,
+ and I think the resultant game value will be -12
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]
+
+Current Board:
+..W.B.W.
+..WBBB..
+..BWBWBB
+BBWBBBW.
+.WWWBBWW
+WWBBBW..
+...BW...
+...W.B..
+W
+
+Value: 4
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [7, 2] after checking 2610 boards,
+ and I think the resultant game value will be 2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+
+Current Board:
+..W.B.W.
+..WBBB..
+..BWBWBB
+BBWBBBW.
+.WWWBWWW
+WWBBWW..
+...WW...
+..WW.B..
+B
+
+Value: -8
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [6, 5] after checking 3382 boards,
+ and I think the resultant game value will be -14
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]
+
+Current Board:
+..W.B.W.
+..WBBB..
+..BWBWBB
+BBWBBBW.
+.WWWBBWW
+WWBBWB..
+...WWB..
+..WW.B..
+W
+
+Value: -4
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [5, 6] after checking 2435 boards,
+ and I think the resultant game value will be 2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+
+Current Board:
+..W.B.W.
+..WBBB..
+..BWBWBB
+BBWBWBW.
+.WWWBWWW
+WWBBWWW.
+...WWB..
+..WW.B..
+B
+
+Value: -10
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [2, 1] after checking 2199 boards,
+ and I think the resultant game value will be -14
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]
+
+Current Board:
+..W.B.W.
+..WBBB..
+.BBWBWBB
+BBBBWBW.
+.WWBBWWW
+WWBBBWW.
+...WWB..
+..WW.B..
+W
+
+Value: -4
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 6].
+human2 (by AI): I'm making move [6, 2] after checking 1952 boards,
+ and I think the resultant game value will be -2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+
+Current Board:
+..W.B.W.
+..WBBB..
+.BBWBWBB
+BBBBWBW.
+.WWBBWWW
+WWWBBWW.
+..WWWB..
+..WW.B..
+B
+
+Value: -6
+
+------
+AI 0: Hmm.  I'd have done [6, 1].
+AI 0: I'm making move [5, 7] after checking 2878 boards,
+ and I think the resultant game value will be -22
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]
+
+Current Board:
+..W.B.W.
+..WBBB..
+.BBWBWBB
+BBBBWBW.
+.WWBBWBW
+WWWBBBBB
+..WWWB..
+..WW.B..
+W
+
+Value: 4
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [6, 7] after checking 2234 boards,
+ and I think the resultant game value will be -4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+
+Current Board:
+..W.B.W.
+..WBBB..
+.BBWBWBB
+BBBBWBW.
+.WWBBWBW
+WWWBBBWW
+..WWWB.W
+..WW.B..
+B
+
+Value: -12
+
+------
+AI 0: Hmm.  I'd have done [3, 7].
+AI 0: I'm making move [6, 6] after checking 2380 boards,
+ and I think the resultant game value will be -20
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]
+
+Current Board:
+..W.B.W.
+..WBBB..
+.BBWBWBB
+BBBBWBW.
+.WWBBWBW
+WWWBBBBW
+..WWWBBW
+..WW.B..
+W
+
+Value: -12
+
+------
+human2 (by AI): Hmm.  I'd have done [1, 1].
+human2 (by AI): I'm making move [1, 7] after checking 2129 boards,
+ and I think the resultant game value will be -8
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+
+Current Board:
+..W.B.W.
+..WBBB.W
+.BBWBWWB
+BBBBWWW.
+.WWBWWBW
+WWWWBBBW
+..WWWBBW
+..WW.B..
+B
+
+Value: -18
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [3, 7] after checking 1119 boards,
+ and I think the resultant game value will be -18
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]
+
+Current Board:
+..W.B.W.
+..WBBB.W
+.BBWBWBB
+BBBBBBBB
+.WWBWWBW
+WWWWBBBW
+..WWWBBW
+..WW.B..
+W
+
+Value: -6
+
+------
+human2 (by AI): Hmm.  I'd have done [0, 7].
+human2 (by AI): I'm making move [7, 7] after checking 2822 boards,
+ and I think the resultant game value will be -6
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+
+Current Board:
+..W.B.W.
+..WBBB.W
+.BBWBWBB
+BBBBBBBB
+.WWBWWBW
+WWWWBWBW
+..WWWBWW
+..WW.B.W
+B
+
+Value: -24
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [0, 7] after checking 990 boards,
+ and I think the resultant game value will be -16
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]
+
+Current Board:
+..W.B.WB
+..WBBB.B
+.BBWBWBB
+BBBBBBBB
+.WWBWWBW
+WWWWBWBW
+..WWWBWW
+..WW.B.W
+W
+
+Value: -8
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [0, 5] after checking 1079 boards,
+ and I think the resultant game value will be 0
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+
+Current Board:
+..W.BWWB
+..WBWW.B
+.BBWBWBB
+BBBBBBBB
+.WWBWWBW
+WWWWBWBW
+..WWWBWW
+..WW.B.W
+B
+
+Value: -16
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [0, 3] after checking 760 boards,
+ and I think the resultant game value will be -14
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]
+
+Current Board:
+..WBBWWB
+..BBBW.B
+.BBWBBBB
+BBBBBBBB
+.WWBWWBW
+WWWWBWBW
+..WWWBWW
+..WW.B.W
+W
+
+Value: -6
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [1, 6] after checking 632 boards,
+ and I think the resultant game value will be 2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+.WWWWWWW
+WWWWBWWW
+..WWWBWW
+..WW.B.W
+B
+
+Value: -12
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [7, 1] after checking 751 boards,
+ and I think the resultant game value will be -26
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+.WWWBWWW
+WWWBBWWW
+..BWWBWW
+.BWW.B.W
+W
+
+Value: -8
+
+------
+human2 (by AI): Hmm.  I'd have done [6, 1].
+human2 (by AI): I'm making move [7, 0] after checking 1024 boards,
+ and I think the resultant game value will be -10
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+.WWWBWWW
+WWWBBWWW
+..BWWBWW
+WWWW.B.W
+B
+
+Value: -24
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [6, 0] after checking 447 boards,
+ and I think the resultant game value will be -48
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+.WBWBWWW
+WBWBBWWW
+B.BWWBWW
+WWWW.B.W
+W
+
+Value: -22
+
+------
+human2 (by AI): Hmm.  I'd have done [6, 1].
+human2 (by AI): I'm making move [6, 1] after checking 501 boards,
+ and I think the resultant game value will be -22
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+.WBWBWWW
+WWWBBWWW
+BWWWWBWW
+WWWW.B.W
+B
+
+Value: -22
+
+------
+AI 0: Hmm.  I'd have done [4, 0].
+AI 0: I'm making move [4, 0] after checking 197 boards,
+ and I think the resultant game value will be -76
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+.BBWBWWB
+BBBBWBWB
+BBBWBWWW
+BWWBBWWW
+BWWWWBWW
+WWWW.B.W
+W
+
+Value: 2
+
+------
+human2 (by AI): Hmm.  I'd have done [7, 4].
+human2 (by AI): I'm making move [2, 0] after checking 173 boards,
+ and I think the resultant game value will be -60
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+
+Current Board:
+..WBBWWB
+..BBBWWB
+WWWWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWW.B.W
+B
+
+Value: -60
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [1, 0] after checking 125 boards,
+ and I think the resultant game value will be -84
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]
+
+Current Board:
+..WBBWWB
+B.BBBWWB
+WBWWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWW.B.W
+W
+
+Value: -60
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [7, 4] after checking 81 boards,
+ and I think the resultant game value will be -68
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+
+Current Board:
+..WBBWWB
+B.BBBWWB
+WBWWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWWWW
+WWWWWB.W
+B
+
+Value: -68
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [7, 6] after checking 37 boards,
+ and I think the resultant game value will be -68
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]
+
+Current Board:
+..WBBWWB
+B.BBBWWB
+WBWWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -68
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move [0, 0] after checking 16 boards,
+ and I think the resultant game value will be -68
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+
+Current Board:
+W.WBBWWB
+W.BBBWWB
+WBWWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -84
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move [1, 1] after checking 9 boards,
+ and I think the resultant game value will be -536870910
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]
+
+Current Board:
+W.WBBWWB
+WBBBBWWB
+WBBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+human2 (by AI): Hmm.  I'd have done [0, 1].
+human2 (by AI): I'm making move [0, 1] after checking 4 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -82
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move Pass after checking 3 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+  30            Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move Pass after checking 2 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+  30            Pass            Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 (by AI) wins.
+------
+AI 0: Yeah, that's what I'd have done.
+
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+------
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 wins.
+------
+
+Enter command (for human2): 
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -82
+
+------
+Move undone.
+AI 0: I'm making move Pass after checking 3 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+
+Enter command (for human2): 
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]
+
+Current Board:
+W.WBBWWB
+WBBBBWWB
+WBBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+Move undone.
+
+Enter command (for human2): 
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]
+
+Current Board:
+W.WBBWWB
+WBBBBWWB
+WBBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]
+
+Current Board:
+W.WBBWWB
+WBBBBWWB
+WBBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+human2 (by AI): I'm making move [0, 1] after checking 4 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -82
+
+------
+AI 0: I'm making move Pass after checking 3 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+  30            Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move Pass after checking 2 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [4, 5]          [2, 4]
+   2          [3, 2]          [4, 2]
+   3          [1, 3]          [0, 2]
+   4          [5, 1]          [5, 3]
+   5          [1, 2]          [5, 2]
+   6          [5, 4]          [6, 4]
+   7          [1, 5]          [5, 0]
+   8          [7, 5]          [0, 6]
+   9          [4, 1]          [3, 6]
+  10          [4, 6]          [3, 1]
+  11          [2, 7]          [4, 7]
+  12          [3, 5]          [2, 5]
+  13          [2, 6]          [5, 5]
+  14          [3, 0]          [7, 3]
+  15          [6, 3]          [1, 4]
+  16          [0, 4]          [7, 2]
+  17          [6, 5]          [5, 6]
+  18          [2, 1]          [6, 2]
+  19          [5, 7]          [6, 7]
+  20          [6, 6]          [1, 7]
+  21          [3, 7]          [7, 7]
+  22          [0, 7]          [0, 5]
+  23          [0, 3]          [1, 6]
+  24          [7, 1]          [7, 0]
+  25          [6, 0]          [6, 1]
+  26          [4, 0]          [2, 0]
+  27          [1, 0]          [7, 4]
+  28          [7, 6]          [0, 0]
+  29          [1, 1]          [0, 1]
+  30            Pass            Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 (by AI) wins.
+------
+AI 0: Yeah, that's what I'd have done.
+
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+------
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 wins.
+------
+
+Enter command (for human2): 
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -82
+
+------
+Move undone.
+AI 0: I'm making move Pass after checking 3 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+
+Enter command (for human2): Error: Bad Othello move:  whatever
+
+Enter command (for human2): 
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 wins.
+------
+AI 0: Yeah, that's what I'd have done.
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? Enter filename: Game saved in test2.oth
+
+------
+Move     N/A  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 wins.
+------
+
+------
+Move     N/A     N/A
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+------
+
+------
+Move  N/A  N/A
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  w  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  b  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+
+------
+Move  AI 0   N/A
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  w  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  b  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+
+------
+Move    AI 0  human2
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  w  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  b  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: I'm making move C1 -> D2 after checking 7214 boards,
+ and I think the resultant game value will be 20
+
+------
+Move      AI 0    human2
+   0  C1 -> D2
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  w  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: -20
+
+------
+
+Enter command (for human2): 
+------
+Move      AI 0    human2
+   0  C1 -> D2  F4 -> E3
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  .  .  w  .  w  
+E  .  .  w  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: Hmm.  I'd have done F2 -> E1.
+AI 0: I'm making move D2 -> F4 after checking 2823 boards,
+ and I think the resultant game value will be 20
+
+------
+Move      AI 0    human2
+   0  C1 -> D2  F4 -> E3
+   1  D2 -> F4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  b  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: 80
+
+------
+
+Enter command (for human2): Error: Invalid move
+
+Enter command (for human2): Error: Invalid move
+
+Enter command (for human2): 
+------
+Move      AI 0       N/A
+   0  C1 -> D2  F4 -> E3
+   1  D2 -> F4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  b  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: 80
+
+------
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  w  .  w  .  w  .  
+F  .  w  .  b  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: 80
+
+------
+human2 (by AI): I'm making move G3 -> E5 after checking 6807 boards,
+ and I think the resultant game value will be -20
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  w  .  .  .  w  .  w  
+E  .  .  .  .  w  .  .  .  
+D  .  .  .  .  .  .  .  .  
+C  .  .  b  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move C3 -> D2 after checking 11348 boards,
+ and I think the resultant game value will be 20
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  w  .  .  .  w  .  w  
+E  .  .  .  .  w  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  .  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: -20
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move E5 -> D4 after checking 27859 boards,
+ and I think the resultant game value will be 80
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2        E5 -> D4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  w  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  w  .  .  .  .  
+C  .  .  .  .  b  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: Hmm.  I'd have done E5 -> D6.
+AI 0: I'm making move C5 -> E3 after checking 2608 boards,
+ and I think the resultant game value will be 120
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2        E5 -> D4
+   3        C5 -> E3
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  w  .  .  .  w  .  w  
+E  .  .  b  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  .  .  .  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: 80
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move F2 -> D4 after checking 5831 boards,
+ and I think the resultant game value will be 80
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2        E5 -> D4
+   3        C5 -> E3        F2 -> D4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  w  .  .  .  .  
+C  .  .  .  .  .  .  b  .  
+B  .  b  .  b  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: Yeah, that's what I'd have done.
+AI 0: I'm making move B4 -> C5 after checking 24536 boards,
+ and I think the resultant game value will be 120
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2        E5 -> D4
+   3        C5 -> E3        F2 -> D4
+   4        B4 -> C5
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  w  .  .  .  .  
+C  .  .  .  .  b  .  b  .  
+B  .  b  .  .  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: -20
+
+------
+human2 (by AI): Yeah, that's what I'd have done.
+human2 (by AI): I'm making move D4 -> C3 after checking 16595 boards,
+ and I think the resultant game value will be 80
+
+------
+Move            AI 0  human2 (by AI)
+   0        C1 -> D2        F4 -> E3
+   1        D2 -> F4        G3 -> E5
+   2        C3 -> D2        E5 -> D4
+   3        C5 -> E3        F2 -> D4
+   4        B4 -> C5        D4 -> C3
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  w  .  b  .  b  .  
+B  .  b  .  .  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: Yeah, that's what I'd have done.
+
+------
+Move      AI 0       N/A
+   0  C1 -> D2  F4 -> E3
+   1  D2 -> F4  G3 -> E5
+   2  C3 -> D2  E5 -> D4
+   3  C5 -> E3  F2 -> D4
+   4  B4 -> C5  D4 -> C3
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  w  .  b  .  b  .  
+B  .  b  .  .  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+
+------
+Move      AI 0    human2
+   0  C1 -> D2  F4 -> E3
+   1  D2 -> F4  G3 -> E5
+   2  C3 -> D2  E5 -> D4
+   3  C5 -> E3  F2 -> D4
+   4  B4 -> C5  D4 -> C3
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  .  .  .  .  .  
+C  .  .  w  .  b  .  b  .  
+B  .  b  .  .  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+Black's move
+
+Value: 20
+
+------
+AI 0: I'm making move B2 -> D4 after checking 15321 boards,
+ and I think the resultant game value will be 120
+
+------
+Move      AI 0    human2
+   0  C1 -> D2  F4 -> E3
+   1  D2 -> F4  G3 -> E5
+   2  C3 -> D2  E5 -> D4
+   3  C5 -> E3  F2 -> D4
+   4  B4 -> C5  D4 -> C3
+   5  B2 -> D4
+
+Current Board:
+           White
+
+H  .  w  .  w  .  w  .  w  
+G  w  .  .  .  w  .  w  .  
+F  .  .  .  .  .  w  .  w  
+E  .  .  .  .  .  .  .  .  
+D  .  b  .  b  .  .  .  .  
+C  .  .  .  .  b  .  b  .  
+B  .  .  .  .  .  b  .  b  
+A  b  .  b  .  b  .  b  .  
+   1  2  3  4  5  6  7  8
+
+           Black
+
+White's move
+
+Value: 80
+
+------
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? Enter filename: Game saved in test1.chk
+Restoring game test2.oth
+
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -536870911
+human2 wins.
+------
+
+Enter command (for human2): 
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+B
+
+Value: -82
+
+------
+Move undone.
+AI 0: I'm making move Pass after checking 3 boards,
+ and I think the resultant game value will be -536870911
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [4, 5]  [2, 4]
+   2  [3, 2]  [4, 2]
+   3  [1, 3]  [0, 2]
+   4  [5, 1]  [5, 3]
+   5  [1, 2]  [5, 2]
+   6  [5, 4]  [6, 4]
+   7  [1, 5]  [5, 0]
+   8  [7, 5]  [0, 6]
+   9  [4, 1]  [3, 6]
+  10  [4, 6]  [3, 1]
+  11  [2, 7]  [4, 7]
+  12  [3, 5]  [2, 5]
+  13  [2, 6]  [5, 5]
+  14  [3, 0]  [7, 3]
+  15  [6, 3]  [1, 4]
+  16  [0, 4]  [7, 2]
+  17  [6, 5]  [5, 6]
+  18  [2, 1]  [6, 2]
+  19  [5, 7]  [6, 7]
+  20  [6, 6]  [1, 7]
+  21  [3, 7]  [7, 7]
+  22  [0, 7]  [0, 5]
+  23  [0, 3]  [1, 6]
+  24  [7, 1]  [7, 0]
+  25  [6, 0]  [6, 1]
+  26  [4, 0]  [2, 0]
+  27  [1, 0]  [7, 4]
+  28  [7, 6]  [0, 0]
+  29  [1, 1]  [0, 1]
+  30    Pass
+
+Current Board:
+WWWBBWWB
+WWWBBWWB
+WWBWBWWB
+WWBBWBWB
+WBWWBWWW
+WWWWBWWW
+WWWWWBWW
+WWWWWBBW
+W
+
+Value: -82
+
+------
+
+Enter command (for human2): Error: Bad Othello move:  F4->e3
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? Current game left intact
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? Restoring game test1.oth
+
+
+------
+Move    AI 0  human2
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+Enter command (for human2): Modify current play level of 8 [y/n]? Enter new level [1, 15]: 
+Side weight: 8
+Near side weight: 0
+Corner weight: 16
+Inner weight: 1
+
+Modify? [y/n] 
+Enter command (for human2): 
+------
+Move    AI 0     N/A
+   0  [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]
+
+Current Board:
+........
+........
+...B....
+...BB...
+...BW...
+........
+........
+........
+W
+
+Value: 3
+
+------
+human2 (by AI): I'm making move [2, 2] after checking 356 boards,
+ and I think the resultant game value will be -2
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+
+Current Board:
+........
+........
+..WB....
+...WB...
+...BW...
+........
+........
+........
+B
+
+Value: 0
+
+------
+AI 0: I'm making move [2, 1] after checking 704 boards,
+ and I think the resultant game value will be 4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [2, 1]
+
+Current Board:
+........
+........
+.BBB....
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 2
+
+------
+human2 (by AI): Hmm.  I'd have done [4, 5].
+human2 (by AI): I'm making move [2, 4] after checking 831 boards,
+ and I think the resultant game value will be -4
+
+------
+Move            AI 0  human2 (by AI)
+   0          [2, 3]          [2, 2]
+   1          [2, 1]          [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+AI 0: Hmm.  I'd have done [4, 2].
+
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+
+Current Board:
+........
+........
+.BBBW...
+...WW...
+...BW...
+........
+........
+........
+B
+
+Value: -1
+
+------
+AI 0: I'm making move [2, 5] after checking 844 boards,
+ and I think the resultant game value will be 3
+
+------
+Move    AI 0  human2
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+   2  [2, 5]
+
+Current Board:
+........
+........
+.BBBBB..
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 4
+
+------
+
+Enter command (for human2): Current game is unsaved.  [S]ave/[C]ancel/[P]roceed? 
+------
+Move    AI 0     N/A
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+   2  [2, 5]
+
+Current Board:
+........
+........
+.BBBBB..
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 4
+
+------
+
+------
+Move     N/A     N/A
+   0  [2, 3]  [2, 2]
+   1  [2, 1]  [2, 4]
+   2  [2, 5]
+
+Current Board:
+........
+........
+.BBBBB..
+...WB...
+...BW...
+........
+........
+........
+W
+
+Value: 4
+
+------
