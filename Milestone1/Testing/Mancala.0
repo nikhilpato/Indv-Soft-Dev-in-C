@@ -1,0 +1,73 @@
+enterMove -0
+applyMove
+undoLastMove 10
+enterMove 6
+applyMove
+undoLastMove 10
+enterMove 13
+applyMove
+undoLastMove 10
+enterMove -1
+applyMove
+undoLastMove 10
+enterMove h
+applyMove
+undoLastMove 10
+enterMove 2 - 1
+applyMove
+undoLastMove 10
+enterMove Pass
+applyMove
+undoLastMove 10
+enterMove 
+applyMove
+undoLastMove 10
+enterMove 8
+applyMove
+undoLastMove 10
+enterMove 1
+applyMove
+undoLastMove 10
+enterMove 1
+applyMove
+undoLastMove 10
+doMove -0
+undoLastMove 10
+doMove 6
+undoLastMove 10
+doMove 13
+undoLastMove 10
+doMove -1
+undoLastMove 10
+doMove h
+undoLastMove 10
+doMove 2 - 1
+undoLastMove 10
+doMove Pass
+undoLastMove 10
+doMove 
+undoLastMove 10
+doMove 8
+undoLastMove 10
+doMove 1
+undoLastMove 10
+doMove 1
+undoLastMove 10
+loadBoard doesNotExist
+loadMove doesNotExist
+compareKeys doesNotExist
+
+setOptions
+y
+-1
+1001
+dur
+12 + 1
+1.5
+1,000
+#4
+int(3)
+1
+1
+1
+quit

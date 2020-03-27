@@ -1,0 +1,78 @@
+enterMove C1 - > D2
+applyMove
+undoLastMove 10
+enterMove 1 -> D2
+applyMove
+undoLastMove 10
+enterMove C1 -> 2
+applyMove
+undoLastMove 10
+enterMove X1 -> D2
+applyMove
+undoLastMove 10
+enterMove C1 -> X2
+applyMove
+undoLastMove 10
+enterMove c1 -> D2
+applyMove
+undoLastMove 10
+enterMove C1 -> d2
+applyMove
+undoLastMove 10
+enterMove Pass
+applyMove
+undoLastMove 10
+enterMove hello
+applyMove
+undoLastMove 10
+enterMove C1 -> D22
+applyMove
+undoLastMove 10
+enterMove C 1 -> D 2
+applyMove
+undoLastMove 10
+enterMove 
+applyMove
+undoLastMove 10
+doMove C1 - > D2
+undoLastMove 10
+doMove 1 -> D2
+undoLastMove 10
+doMove C1 -> 2
+undoLastMove 10
+doMove X1 -> D2
+undoLastMove 10
+doMove C1 -> X2
+undoLastMove 10
+doMove c1 -> D2
+undoLastMove 10
+doMove C1 -> d2
+undoLastMove 10
+doMove Pass
+undoLastMove 10
+doMove hello
+undoLastMove 10
+doMove C1 -> D22
+undoLastMove 10
+doMove C 1 -> D 2
+undoLastMove 10
+doMove 
+undoLastMove 10
+loadBoard doesNotExist
+loadMove doesNotExist
+compareKeys doesNotExist
+
+setOptions
+y
+-1
+1001
+dur
+12 + 1
+1.5
+1,000
+#4
+int(3)
+1
+1
+1
+quit
