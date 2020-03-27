@@ -1,0 +1,6428 @@
+Enter boardType, level, depth, and filename:    . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8472 Value: 0
+Added as board 1
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7075 Value: -94
+Added as board 2
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W B . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 3]
+ Boards examined: 6648 Value: 0
+Added as board 3
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . B . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 3]
+ Boards examined: 6990 Value: 0
+Added as board 4
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . B 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7379 Value: 0
+Added as board 5
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6762 Value: 0
+Added as board 6
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7600 Value: 0
+Added as board 7
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7606 Value: 0
+Added as board 8
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7431 Value: 0
+Added as board 9
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [1, 0]
+ Boards examined: 6747 Value: 0
+Added as board 10
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [1, 0]
+ Boards examined: 7948 Value: 0
+Added as board 11
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7793 Value: 0
+Added as board 12
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 3]
+ Boards examined: 7940 Value: 0
+Added as board 13
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [1, 0]
+ Boards examined: 6524 Value: 0
+Added as board 14
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [1, 0]
+ Boards examined: 7410 Value: 0
+Added as board 15
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7401 Value: 0
+Added as board 16
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 3]
+ Boards examined: 7698 Value: 0
+Added as board 17
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7391 Value: -94
+Added as board 18
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B W . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [1, 0]
+ Boards examined: 7874 Value: 0
+Added as board 19
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W B . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 3]
+ Boards examined: 7549 Value: 0
+Added as board 20
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . B 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 9244 Value: 0
+Added as board 21
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 9654 Value: 0
+Added as board 22
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7588 Value: 0
+Added as board 23
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 8101 Value: 0
+Added as board 24
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 9582 Value: 0
+Added as board 25
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [1, 0]
+ Boards examined: 8443 Value: 0
+Added as board 26
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [1, 0]
+ Boards examined: 10620 Value: 0
+Added as board 27
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 10456 Value: 0
+Added as board 28
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 3]
+ Boards examined: 10926 Value: 0
+Added as board 29
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [1, 0]
+ Boards examined: 7916 Value: 0
+Added as board 30
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [1, 0]
+ Boards examined: 10062 Value: 0
+Added as board 31
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 9919 Value: 0
+Added as board 32
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 3]
+ Boards examined: 10490 Value: 0
+Added as board 33
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 10913 Value: -94
+Added as board 34
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . W . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [1, 0]
+ Boards examined: 7664 Value: 0
+Added as board 35
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B W . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 3]
+ Boards examined: 6997 Value: 0
+Added as board 36
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W B 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9369 Value: 0
+Added as board 37
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8224 Value: 0
+Added as board 38
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7915 Value: 0
+Added as board 39
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6858 Value: 0
+Added as board 40
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9760 Value: 0
+Added as board 41
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8550 Value: 0
+Added as board 42
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11860 Value: 0
+Added as board 43
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12293 Value: 0
+Added as board 44
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12433 Value: 0
+Added as board 45
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7867 Value: 0
+Added as board 46
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11203 Value: 0
+Added as board 47
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12187 Value: 0
+Added as board 48
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12028 Value: 0
+Added as board 49
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8197 Value: -94
+Added as board 50
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . W 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6989 Value: 0
+Added as board 51
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . W 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7198 Value: 0
+Added as board 52
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B W 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8053 Value: 0
+Added as board 53
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7246 Value: 0
+Added as board 54
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8063 Value: 0
+Added as board 55
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8421 Value: 0
+Added as board 56
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6227 Value: 0
+Added as board 57
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7864 Value: 0
+Added as board 58
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10429 Value: 0
+Added as board 59
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11295 Value: 0
+Added as board 60
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8764 Value: 0
+Added as board 61
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7337 Value: 0
+Added as board 62
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9893 Value: 0
+Added as board 63
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10801 Value: 0
+Added as board 64
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8520 Value: 0
+Added as board 65
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9849 Value: -94
+Added as board 66
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7137 Value: 0
+Added as board 67
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 9297 Value: 0
+Added as board 68
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7459 Value: 0
+Added as board 69
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+W . . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7475 Value: 0
+Added as board 70
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W B . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14388 Value: 0
+Added as board 71
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11697 Value: 0
+Added as board 72
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10299 Value: 0
+Added as board 73
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7116 Value: 0
+Added as board 74
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11101 Value: 0
+Added as board 75
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14401 Value: 0
+Added as board 76
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13477 Value: 0
+Added as board 77
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12425 Value: 0
+Added as board 78
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14580 Value: 0
+Added as board 79
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12145 Value: 0
+Added as board 80
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13066 Value: 0
+Added as board 81
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [1, 2]
+ Boards examined: 25710 Value: -86
+Added as board 82
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 8697 Value: 0
+Added as board 83
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7894 Value: 0
+Added as board 84
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8495 Value: 0
+Added as board 85
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. W . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9984 Value: 0
+Added as board 86
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B W . . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 15346 Value: 0
+Added as board 87
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W B . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13050 Value: 0
+Added as board 88
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 16840 Value: 0
+Added as board 89
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9879 Value: 0
+Added as board 90
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10816 Value: 0
+Added as board 91
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15350 Value: 0
+Added as board 92
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 21036 Value: 0
+Added as board 93
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15518 Value: 0
+Added as board 94
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 25418 Value: 0
+Added as board 95
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 21606 Value: 0
+Added as board 96
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 20244 Value: 0
+Added as board 97
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 33489 Value: -86
+Added as board 98
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7684 Value: 0
+Added as board 99
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7928 Value: 0
+Added as board 100
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6676 Value: 0
+Added as board 101
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9561 Value: 0
+Added as board 102
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10276 Value: 0
+Added as board 103
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B W . 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10951 Value: 0
+Added as board 104
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W B 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15589 Value: 0
+Added as board 105
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 16323 Value: 0
+Added as board 106
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 21664 Value: 0
+Added as board 107
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 22565 Value: 0
+Added as board 108
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 24546 Value: 0
+Added as board 109
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13452 Value: 0
+Added as board 110
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 28145 Value: 0
+Added as board 111
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 36021 Value: 0
+Added as board 112
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 31631 Value: 0
+Added as board 113
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 16669 Value: -94
+Added as board 114
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6973 Value: 0
+Added as board 115
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7360 Value: 0
+Added as board 116
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7967 Value: 0
+Added as board 117
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6116 Value: 0
+Added as board 118
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8348 Value: 0
+Added as board 119
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 14826 Value: 0
+Added as board 120
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B W 
+
+. . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 11814 Value: 0
+Added as board 121
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+B . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 17226 Value: 0
+Added as board 122
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 1]
+ Boards examined: 23113 Value: 0
+Added as board 123
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 3]
+ Boards examined: 22474 Value: 0
+Added as board 124
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14581 Value: 0
+Added as board 125
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11781 Value: 0
+Added as board 126
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 1]
+ Boards examined: 23757 Value: 0
+Added as board 127
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 3]
+ Boards examined: 33333 Value: 0
+Added as board 128
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 22188 Value: 0
+Added as board 129
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [1, 0] with reply Play at [0, 0]
+ Boards examined: 27983 Value: -94
+Added as board 130
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6132 Value: 0
+Added as board 131
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6786 Value: 0
+Added as board 132
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7699 Value: 0
+Added as board 133
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7519 Value: 0
+Added as board 134
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7228 Value: 0
+Added as board 135
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9635 Value: 0
+Added as board 136
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 17128 Value: 0
+Added as board 137
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+W . . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 16932 Value: 0
+Added as board 138
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W B . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10150 Value: 0
+Added as board 139
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 20904 Value: 0
+Added as board 140
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 20718 Value: 0
+Added as board 141
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12790 Value: 0
+Added as board 142
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15986 Value: 0
+Added as board 143
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 21005 Value: 0
+Added as board 144
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 21490 Value: 0
+Added as board 145
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [1, 1]
+ Boards examined: 73021 Value: -86
+Added as board 146
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7231 Value: 0
+Added as board 147
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6792 Value: 0
+Added as board 148
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 10561 Value: 0
+Added as board 149
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8325 Value: 0
+Added as board 150
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9961 Value: 0
+Added as board 151
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7850 Value: 0
+Added as board 152
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 21545 Value: 0
+Added as board 153
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 28005 Value: 0
+Added as board 154
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B W . . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8812 Value: 0
+Added as board 155
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W B . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 24989 Value: 0
+Added as board 156
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 35554 Value: 0
+Added as board 157
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 16147 Value: 0
+Added as board 158
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 21584 Value: 0
+Added as board 159
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 29014 Value: 0
+Added as board 160
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 33752 Value: 0
+Added as board 161
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [1, 2]
+ Boards examined: 87456 Value: -86
+Added as board 162
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 7021 Value: 0
+Added as board 163
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 7311 Value: 0
+Added as board 164
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 9336 Value: 0
+Added as board 165
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8501 Value: 0
+Added as board 166
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10609 Value: 0
+Added as board 167
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10478 Value: 0
+Added as board 168
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 15559 Value: 0
+Added as board 169
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 23172 Value: 0
+Added as board 170
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 20834 Value: 0
+Added as board 171
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B W . 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 24482 Value: 0
+Added as board 172
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W B 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 19144 Value: 0
+Added as board 173
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 16094 Value: 0
+Added as board 174
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 26734 Value: 0
+Added as board 175
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 24386 Value: 0
+Added as board 176
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 29360 Value: 0
+Added as board 177
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+Black's move
+Best move: Play at [1, 2] with reply Play at [0, 0]
+ Boards examined: 51932 Value: -94
+Added as board 178
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6624 Value: 0
+Added as board 179
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6910 Value: 0
+Added as board 180
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 10462 Value: 0
+Added as board 181
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6711 Value: 0
+Added as board 182
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9296 Value: 0
+Added as board 183
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 18819 Value: 0
+Added as board 184
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 16740 Value: 0
+Added as board 185
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12882 Value: 0
+Added as board 186
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 21874 Value: 0
+Added as board 187
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B . W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 30450 Value: 0
+Added as board 188
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . B W 
+
+. . . . 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 24509 Value: 0
+Added as board 189
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+B . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14055 Value: 0
+Added as board 190
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+. B . . 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 35735 Value: 0
+Added as board 191
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+. . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 23867 Value: 0
+Added as board 192
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+. . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 16195 Value: 0
+Added as board 193
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11955 Value: -94
+Added as board 194
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 5843 Value: 0
+Added as board 195
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6503 Value: 0
+Added as board 196
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7414 Value: 0
+Added as board 197
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7172 Value: 0
+Added as board 198
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8650 Value: 0
+Added as board 199
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10617 Value: 0
+Added as board 200
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14948 Value: 0
+Added as board 201
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15223 Value: 0
+Added as board 202
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10040 Value: 0
+Added as board 203
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13898 Value: 0
+Added as board 204
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 20869 Value: 0
+Added as board 205
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+W . . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 19698 Value: 0
+Added as board 206
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+W B . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8661 Value: 0
+Added as board 207
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+W . B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 15194 Value: 0
+Added as board 208
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+W . . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14914 Value: 0
+Added as board 209
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+Black's move
+Best move: Play at [2, 0] with reply Play at [0, 0]
+ Boards examined: 55689 Value: -94
+Added as board 210
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6596 Value: 0
+Added as board 211
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6275 Value: 0
+Added as board 212
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 9868 Value: 0
+Added as board 213
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7667 Value: 0
+Added as board 214
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10322 Value: 0
+Added as board 215
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [2, 0] with reply Play at [0, 0]
+ Boards examined: 21257 Value: 0
+Added as board 216
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 20044 Value: 0
+Added as board 217
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 22389 Value: 0
+Added as board 218
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11855 Value: 0
+Added as board 219
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+. W . . 
+
+White's move
+Best move: Play at [1, 0] with reply Play at [0, 0]
+ Boards examined: 19574 Value: 0
+Added as board 220
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 25118 Value: 0
+Added as board 221
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+. W . . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 32651 Value: 0
+Added as board 222
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+B W . . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7438 Value: 0
+Added as board 223
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. W B . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 17915 Value: 0
+Added as board 224
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. W . B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 24707 Value: 0
+Added as board 225
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+Black's move
+Best move: Play at [2, 1] with reply Play at [0, 0]
+ Boards examined: 70844 Value: -94
+Added as board 226
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6607 Value: 0
+Added as board 227
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6897 Value: 0
+Added as board 228
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 8894 Value: 0
+Added as board 229
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 7827 Value: 0
+Added as board 230
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 9266 Value: 0
+Added as board 231
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 16841 Value: 0
+Added as board 232
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [2, 1] with reply Play at [0, 1]
+ Boards examined: 33438 Value: 0
+Added as board 233
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 24748 Value: 0
+Added as board 234
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 22539 Value: 0
+Added as board 235
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 24781 Value: 0
+Added as board 236
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+. . W . 
+
+White's move
+Best move: Play at [1, 1] with reply Play at [0, 0]
+ Boards examined: 24649 Value: 0
+Added as board 237
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+. . W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 19754 Value: 0
+Added as board 238
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+B . W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 11960 Value: 0
+Added as board 239
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. B W . 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14341 Value: 0
+Added as board 240
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. . W B 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 13988 Value: 0
+Added as board 241
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+Black's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 14781 Value: -94
+Added as board 242
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+B . . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 2]
+ Boards examined: 6438 Value: 0
+Added as board 243
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. B . . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 2]
+ Boards examined: 6728 Value: 0
+Added as board 244
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . B . 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 1] with reply Play at [0, 0]
+ Boards examined: 10012 Value: 0
+Added as board 245
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . B 
+
+. . . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 6495 Value: 0
+Added as board 246
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+B . . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 8920 Value: 0
+Added as board 247
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. B . . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 18310 Value: 0
+Added as board 248
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . B . 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 25494 Value: 0
+Added as board 249
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . B 
+
+. . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 2] with reply Play at [0, 0]
+ Boards examined: 18858 Value: 0
+Added as board 250
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+B . . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 25016 Value: 0
+Added as board 251
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. B . . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 31067 Value: 0
+Added as board 252
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . B . 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 27043 Value: 0
+Added as board 253
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . B 
+
+. . . W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10721 Value: 0
+Added as board 254
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+B . . W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 10902 Value: 0
+Added as board 255
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. B . W 
+
+White's move
+Best move: Play at [0, 3] with reply Play at [0, 0]
+ Boards examined: 30089 Value: 0
+Added as board 256
+
+   . 
+
+  . . 
+
+  . . 
+
+ . . . 
+
+ . . . 
+
+ . . . 
+
+. . . . 
+
+. . . . 
+
+. . . . 
+
+. . B W 
+
+White's move
+Best move: Play at [0, 0] with reply Play at [0, 1]
+ Boards examined: 12011 Value: 0
+Added as board 257
+
+Writing book... done
+Before clearing book, moves/keys: 514/257
+Final count, moves/keys: 0/0
